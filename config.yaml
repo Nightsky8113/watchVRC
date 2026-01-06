@@ -1,0 +1,19 @@
+exclude:
+  user_ids:
+  - ''
+  users:
+  - ''
+logging:
+  file: vrchat_recording.log
+  level: INFO
+obs:
+  host: localhost
+  password: 2Obzc3k3xoScvvWK
+  port: 4455
+recording:
+  file_name_format: V睡録画_{timestamp}
+  output_path: ./recordings
+vrchat:
+  log_file_path: null
+  osc_port: 9000
+  use_osc: false

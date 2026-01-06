@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# ログファイル
+*.log
+
+# 録画ファイル
+recordings/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 設定ファイル（個人情報を含む可能性があるため）
+# config.yaml  # コメントアウトを外すと設定ファイルも除外されます
+
+
+
